@@ -1,0 +1,140 @@
+.promo
+    min-height: 700px
+    background-image: url(../img/background.jpg)
+    background-position: center top
+    background-repeat: no-repeat
+    background-size: cover
+    padding: 30px 0 0 0
+    &__title
+        
+        text-transform: uppercase
+        font-weight: 700
+        font-size: 50px
+        margin-top: 170px
+        color: #000000
+    &__subtitle
+        
+        color:  #000000
+        font-size: 25px
+        margin-top: 15px
+.header 
+    display: flex
+    justify-content: space-between
+    olor: #ffffff
+    &__logo
+        img
+            height: auto
+            width: 130px
+    &__nav
+        display: flex
+        align-items: center
+        
+        li
+            display: inline-block
+            margin: 0px 20px
+            
+            a
+                position: relative
+                line-height: 1
+                &::after
+                    content: ""
+                    display: block
+                    position: absolute
+                    left: 0           
+                    width: 0
+                    height: 2px
+                    background-color: #000000
+                    transition: width 0.3s ease-out
+                &:hover::after,
+                &:focus::after
+                    width: 100%         
+.about
+    min-height: 600px
+    background: #F6F6F6
+    background-position: center center
+    background-size: cover
+    background-repeat: no-repeat
+    padding: 30px 0 0 0 
+    &__text
+        text-align: center
+        line-height: 30px
+        margin-top: 100px
+        font-size: 20px
+.rulse
+    padding: 0 0 70px 0
+    &__about
+        text-align: left
+        font-size: 20px
+        margin-top: 70px
+        ul
+            margin-top: 30px
+            margin-bottom: 40px
+        li
+            list-style-type: circle
+            line-height: 28px
+            text-align: left  
+        .title
+            margin-bottom: 40px
+            display: block
+            text-align: center  
+.advantages
+    min-height: 600px
+    padding: 50px 0 100px 0
+    background-image: url(../img/background2.jpg)
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    .title
+        color: #ffffff
+        margin: 0
+        
+    &__descrs
+        margin-top: 30px
+        color: #ffffff
+        font-size: 22px
+        display: flex
+        align-items: flex-start
+        flex-direction: column
+        line-height: 24px
+    &__descr
+        padding: 40px 0
+              
+.contacts 
+    background: #F6F6F6
+    padding: 40px 
+   
+.contacts__adress
+    display: flex
+    justify-content: center
+
+    iframe
+        width: 80%
+
+.footer
+    background: #ffffff
+    width: 100%
+    min-height: 200px
+    padding: 30px 0 20px 0
+    position: relative
+    img
+        display: block
+        width: 100px
+        
+        margin: auto
+    &__contacts
+        margin-bottom: 20px
+        line-height: 30px
+        font-size: 20px
+        width: 300px
+
+.footer__ruelse
+    text-align: center
+    display: block
+    margin: auto
+    width: 300px
+    margin-top: 30px
+    line-height: 35px
+    a
+        text-decoration: underline
+
+  

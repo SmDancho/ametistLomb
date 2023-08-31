@@ -1,0 +1,22 @@
+{
+  "name": "lombard-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmDancho/ametistLomb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SmDancho/ametistLomb/issues"
+  },
+  "homepage": "https://github.com/SmDancho/ametistLomb#readme"
+}

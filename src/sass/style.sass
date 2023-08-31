@@ -1,49 +1,50 @@
 @import "general.sass"
 @import "media.sass"
+@import "reports.sass"
 
-* 
-    outline: none 
-    font-family: 'Museo Sans Cyrl 500'
-    list-style: none
-    scroll-behavior: smooth
+*
+  outline: none
+  font-family: 'Museo Sans Cyrl 500', sans-serif
+  list-style: none
+  scroll-behavior: smooth
 a
-    color: #000000
-    text-decoration: none
-    cursor: pointer
+  color: #000000
+  text-decoration: none
+  cursor: pointer
 h1,h2,h3,h4,h5,h6
-    margin: 0
-    padding: 0  
+  margin: 0
+  padding: 0
 
-.container 
-    max-width: 1140px 
-    margin: auto
-
+.container
+  max-width: 1140px
+  margin: auto
 
 ul
-    margin: 0
-    padding: 0
+  margin: 0
+  padding: 0
+li
+  text-transform: uppercase
+.title
+  color: #000000
+  text-transform: uppercase
+  font-size: 30px
+  text-align: center
 
-.title  
-    color: #000000
-    text-transform: uppercase
-    font-size: 30px
-    text-align: center
-     
 .table_logo
-    margin: auto
-    margin-top: 20px
+  margin: auto
+  margin-top: 20px
 .table
+  border: 2px solid
+  border-collapse: collapse
+  margin: auto
+  margin-top: 20px
+span
+  font-weight: 700
+  th
+    padding: 5px 5px
     border: 2px solid
-    border-collapse: collapse
-    margin: auto
-    margin-top: 20px
-    span
-        font-weight: 700
-    th
-        padding: 5px 5px
-        border: 2px solid
-        &:first-child
-            min-width: 400px
-    td 
-        border: 2px solid
-        text-align: center
+  &:first-child
+    min-width: 400px
+  td
+    border: 2px solid
+    text-align: center
